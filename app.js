@@ -33,7 +33,7 @@ const {
     const flowLocal = addKeyword('2').addAnswer(
         'Estamos en Vitacura!',
         ).addAnswer('AV Padre Hurtado Nº 1376, esquina Las Hualtatas.',
-        ).addAnswer('Martes a Sabado de 10.30 a las 19.30 hs.',
+        ).addAnswer('Martes a Sabado de 10.30 hasta las 19.30 hs.',
         ).addAnswer('Domingos de 11.30 a 14 hs y los Lunes descansamos',
       
     );
