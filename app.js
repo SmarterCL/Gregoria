@@ -24,10 +24,10 @@ const {
     );
  
     const flowMenuPDF = addKeyword('1')
-        .addAnswer('Nuestra Carta Menu de terraza',
-        {
-            media: 'https://botchile.000webhostapp.com/GREGORIA-COCINA.pdf',
-        })
+        .addAnswer('Nuestra Carta Menu de terraza',)
+        .addAnswer(
+            'Te envio una imagen',
+            { media: 'https://botchile.000webhostapp.com/GREGORIA-COCINA.pdf' },)
         .addAnswer('no necesitás reservar mesa!',);
 
     const flowLocal = addKeyword('2').addAnswer(
