@@ -19,6 +19,7 @@ const {
         'marca 👉 1 Para obtener la carta de terraza en PDF',
         'marca 👉 2 Para conocer la dirección y horarios',
         'marca 👉 3 Para pedir delivery o retirar en el local',
+        'marca 👉 4 Problemas con el pedido o problemas con el delivery ',
         '#EL VERDADERO RINCÓN 🇦🇷 EN SANTIAGO',
         ], 
     );
@@ -42,12 +43,16 @@ const {
           ).addAnswer('Nuestro sitio web permite pedir a domicilio o retirar en el local',
           ).addAnswer('Si es tu primera compra, podés canjear los descuentos',
     );
-
+        const flowprobDelivery = addKeyword('4').addAnswer(
+          'Por favor, envia fotos de tu pedido, tu numero de orden y tu nombre',
+          ).addAnswer('Comentanos si tu pedido no corresponde o tiene faltante',
+          ).addAnswer('Nuestro personal esta disponible para ayudar',
+    );
     //    ----
 
     const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowMenu,flowMenuPDF,flowDelivery,flowLocal])
+    const adapterFlow = createFlow([flowMenu,flowMenuPDF,flowDelivery,flowprobDelivery,flowLocal])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
