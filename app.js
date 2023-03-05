@@ -34,7 +34,8 @@ const {
     const flowLocal = addKeyword('2').addAnswer(
         'Estamos en Vitacura!',
         ).addAnswer('AV Padre Hurtado Nº 1376, esquina Las Hualtatas.',
-        ).addAnswer('Martes a Sabado de 10.30 hasta las 19.30 hs.',
+        ).addAnswer('NUEVO HORARIO EXTENDIDO.',
+        ).addAnswer('Martes a Sábados de 10.30 hasta las 19.30 hs.',
         ).addAnswer('Domingos de 11.30 a 14 hs y los Lunes descansamos',
       
     );
@@ -45,7 +46,7 @@ const {
     );
         const flowprobDelivery = addKeyword('4').addAnswer(
           'Por favor, envia fotos de tu pedido, tu numero de orden y tu nombre',
-          ).addAnswer('Comentanos si tu pedido no corresponde o tiene faltante',
+          ).addAnswer('Comentanos si tu pedido no corresponde o si tiene faltante',
           ).addAnswer('Nuestro personal esta disponible para ayudar',
     );
     //    ----
