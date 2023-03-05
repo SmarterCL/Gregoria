@@ -29,7 +29,7 @@ const {
         .addAnswer(
             'Te envio una imagen',
             { media: 'https://botchile.000webhostapp.com/GREGORIA-COCINA.pdf' },)
-        .addAnswer('no necesitás reservar mesa!',);
+        .addAnswer('Puedes resservar con la aplicación mesa\n www.reservamesa.cl',);
 
     const flowLocal = addKeyword('2').addAnswer(
         'Estamos en Vitacura!',
