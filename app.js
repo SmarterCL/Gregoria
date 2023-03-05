@@ -13,7 +13,7 @@ const {
 
     const flowMenu = addKeyword(['inicio','menu','hola'])
         .addAnswer(
-        '🙌 Bienvenido al chat  bot de Gregoria Cocina')
+        '🙌 Bienvenido al chatbot de Gregoria Cocina')
         .addAnswer(
         [        
         'marca 👉 1 Para obtener la carta de terraza en PDF\n',
