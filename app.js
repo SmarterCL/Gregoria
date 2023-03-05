@@ -13,7 +13,7 @@ const {
 
     const flowMenu = addKeyword(['inicio','menu','hola'])
         .addAnswer(
-        '🙌 Bienvenido al bot de Gregoria Cocina')
+        '🙌 Bienvenido al chat  bot de Gregoria Cocina')
         .addAnswer(
         [        
         'marca 👉 1 Para obtener la carta de terraza en PDF\n',
@@ -29,7 +29,7 @@ const {
         .addAnswer(
             'Te envio una imagen',
             { media: 'https://botchile.000webhostapp.com/GREGORIA-COCINA.pdf' },)
-        .addAnswer('Puedes resservar con la aplicación mesa\n www.reservamesa.cl',);
+        .addAnswer('Puedes reservar con la aplicación mesa\n www.reservamesa.cl',);
 
     const flowLocal = addKeyword('2').addAnswer(
         'Estamos en Vitacura!',
@@ -40,13 +40,13 @@ const {
       
     );
       const flowDelivery = addKeyword('3').addAnswer(
-          'Pedí con este link https://mipedido.gregoria.cl/pedir',
+          'Pedidos online https://mipedido.gregoria.cl/pedir',
           ).addAnswer('Nuestro sitio web permite pedir a domicilio o retirar en el local',
           ).addAnswer('Si es tu primera compra, podés canjear los descuentos',
     );
         const flowprobDelivery = addKeyword('4').addAnswer(
-          'Por favor, envia fotos de tu pedido, tu numero de orden y tu nombre',
-          ).addAnswer('Comentanos si tu pedido no corresponde o si tiene faltante',
+          'Por favor, envia fotos de tu pedido, tu número de orden y tu nombre',
+          ).addAnswer('Coméntanos si tu pedido no corresponde o si tiene faltante',
           ).addAnswer('Nuestro personal esta disponible para ayudar',
     );
     //    ----
