@@ -13,13 +13,13 @@ const {
 
     const flowMenu = addKeyword(['inicio','menu','hola'])
         .addAnswer(
-        '🙌 Bienvenido al chatbot de Gregoria Cocina')
+        '🙌 Bienvenid@ al chat de <b>Gregoria Cocina</b>')
         .addAnswer(
         [        
         'marca 👉 1 Para obtener la carta de terraza en PDF\n',
         'marca 👉 2 Para conocer la dirección y horarios\n',
         'marca 👉 3 Para pedir delivery o retirar en el local\n',
-        'marca 👉 4 Problemas con el pedido o problemas con el delivery\n',
+        'marca 👉 4 Problemas con el pedido o con el delivery\n',
         '#EL VERDADERO RINCÓN 🇦🇷 EN SANTIAGO',
         ], 
     );
