@@ -42,7 +42,7 @@ const {
       const flowDelivery = addKeyword('3').addAnswer(
           'Pedidos online https://mipedido.gregoria.cl/pedir',
           ).addAnswer('Nuestro sitio web permite pedir a domicilio o retirar en el local',
-          ).addAnswer('Si es tu primera compra, podés canjear los descuentos',
+          ).addAnswer('Si es tu primera compra, puedes canjear los descuentos',
     );
         const flowprobDelivery = addKeyword('4').addAnswer(
           'Por favor, envia fotos de tu pedido, tu número de orden y tu nombre',
