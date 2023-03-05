@@ -16,10 +16,10 @@ const {
         '🙌 Bienvenido al bot de Gregoria Cocina')
         .addAnswer(
         [        
-        'marca 👉 1 Para obtener la carta de terraza en PDF',
-        'marca 👉 2 Para conocer la dirección y horarios',
-        'marca 👉 3 Para pedir delivery o retirar en el local',
-        'marca 👉 4 Problemas con el pedido o problemas con el delivery ',
+        'marca 👉 1 Para obtener la carta de terraza en PDF\n',
+        'marca 👉 2 Para conocer la dirección y horarios\n',
+        'marca 👉 3 Para pedir delivery o retirar en el local\n',
+        'marca 👉 4 Problemas con el pedido o problemas con el delivery\n',
         '#EL VERDADERO RINCÓN 🇦🇷 EN SANTIAGO',
         ], 
     );
